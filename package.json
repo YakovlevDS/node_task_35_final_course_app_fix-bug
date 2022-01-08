@@ -1,0 +1,28 @@
+{
+  "name": "Courses Store",
+  "version": "1.0.0",
+  "description": "node.js express handlebars mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "keywords": ["node", "express", "handlebars", "mongodb","mongoose"],
+  "author": "Yakovlev Dmitriy",
+  "license": "ISC",
+  "devDependencies": {
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "connect-mongodb-session": "^2.3.3",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.21",
+    "shortid": "^2.2.15"
+  }
+}
