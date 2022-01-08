@@ -7,7 +7,13 @@
     "dev": "nodemon index",
     "start": "node index"
   },
-  "keywords": ["node", "express", "handlebars", "mongodb","mongoose"],
+  "keywords": [
+    "node",
+    "express",
+    "handlebars",
+    "mongodb",
+    "mongoose"
+  ],
   "author": "Yakovlev Dmitriy",
   "license": "ISC",
   "devDependencies": {
@@ -23,6 +29,8 @@
     "express-handlebars": "^4.0.4",
     "express-session": "^1.17.1",
     "mongoose": "^5.9.21",
+    "nodemailer": "^6.7.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "shortid": "^2.2.15"
   }
 }

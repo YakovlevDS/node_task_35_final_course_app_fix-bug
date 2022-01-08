@@ -11,7 +11,7 @@ document.querySelectorAll('.course-price').forEach(node => {
 
 const $totalCardPrice = document.querySelector('#total-price')
 if($totalCardPrice) {
-    $totalCardPrice.textContent = fixPrice($totalCardPrice.textContent.split(':')[1], 'ru-RU', 'rub')
+    $totalCardPrice.textContent = fixPrice($totalCardPrice.textContent.split(':')[1], 'ru-RU', 'UAH')
 }
 
 const $card = document.querySelector('#card')
@@ -47,7 +47,7 @@ if($card) {
                     $card.innerHTML = '<p>No items</p>'
                   }
                   
-                  $totalCardPrice.textContent = fixPrice($totalCardPrice.textContent, 'ru-RU', 'rub')
+                  $totalCardPrice.textContent = fixPrice($totalCardPrice.textContent, 'ru-RU', 'UAH')
               })
         }
     })
